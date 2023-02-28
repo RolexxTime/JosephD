@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/log.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jo-DINDJI</title>
+</head>
+<body>
+        <!-- HEADER -->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <p><a href="index.html"><span>jo</span>dindji</a></p>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Accueil</a></li>
+                        <li><a href="#about">A propos</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Bienvenue sur le site officiel de</p>
+                    <h1><span>DINDJI</span> Obouo Joseph</h1>
+                    <p>DIRECTEUR GENERAL DE HADEP VOYAGES</p>
+                </div>
+            </div>
+        </div>
+        <!-- END HEADER -->
+    
+
+        <!-- A PROPOS -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/IMG-2938.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">Tout savoir sur moi</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                           dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                           dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('expérience')">Expérience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="expérience">
+                            <ul>
+                                <li><span>2004</span><br>Fondation de HADEP VOYAGES</li>
+                                <li><span>2009</span><br>Fondation de FAAI</li>
+                                <li><span>2017</span><br>Président de la Chambre de commerce CI-ISRAEL</li>
+                                <li><span>2021</span><br>Création de HADEP IMMOBILIER</li>
+                                <li><span>2022</span><br>Création de HADEP TECHNOLOGIE</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>1968</span><br>Fondation de HADEP VOYAGES</li>
+                                <li><span>1980</span><br>Fondation de FAAI</li>
+                                <li><span>2000</span><br>Président de la Chambre de commerce CI-ISRAEL</li>
+                                <li><span>2021</span><br>Création de HADEP IMMOBILIER</li>
+                                <li><span>2023</span><br>Création de HADEP TECHNOLOGIE</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END A PROPOS -->
+
+
+        <!-- SERVICES -->
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-title">Mes activités</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fas fa-plane"></i>
+                        <h2>HADEP VOYAGES</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-home"></i>
+                        <h2>HADEP IMMOBILIER</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-sim-card"></i>
+                        <h2>HADEP TECHNOLOGIE</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-sun"></i>
+                        <h2>HADEP SOLAR SYSTEM SOLUTION</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-shopping-basket"></i>
+                        <h2>MAGASIN DE VENTE</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-pills"></i>
+                        <h2>HADEP SANTE</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-utensils"></i>
+                        <h2>HADEP RESTAURATION</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-sticky-note"></i>
+                        <h2>HADEP ASSURANCES</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero velit excepturi error quas assumenda illum 
+                            dolorem fuga! Corrupti dignissimos voluptatum iste eaque facere harum, voluptas esse temporibus rerum minima?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SERVICES -->
+
+        <!-- GALERIE  -->
+        <div id="galerie">
+            <div class="container">
+                <h1 class="sub-title">Mes photos</h1>
+                <div class="galerie-list">
+                    <div class="gal">
+                        <img src="images/IMG-0742.jpg">
+                    </div>
+                    <div class="gal">
+                        <img src="images/IMG-0758.jpg">
+                    </div>
+                    <div class="gal">
+                        <img src="images/IMG-0759.jpg">
+                    </div>
+                    <div class="gal">
+                        <img src="images/IMG-2937.jpg">
+                    </div>
+                    <!-- <div class="gal">
+                        <img src="images/IMG-2938.jpg">
+                    </div> -->
+                    <div class="gal">
+                        <img src="images/IMG-2941.jpg">
+                    </div>
+                    <div class="gal">
+                        <img src="images/IMG-2942.jpg">
+                    </div>
+                    <div class="gal">
+                        <img src="images/IMG-2943.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END GALERIE  -->
+
+        <!-- CONTACT  -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contactez-moi</h1>
+                        <p><i class="fas fa-paper-plane"></i>jodindji@gmail.com</p>
+                        <p><i class="fas fa-phone"></i>+225 0708030362</p>
+                        <p>Bingerville, Cité prestige</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="#" class="btn btn2">Voir le CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Votre Nom" required>
+                            <input type="email" name="Email" placeholder="Votre Email" required>
+                            <textarea name="Message" rows="6" placeholder="Votre Message"></textarea>
+                            <button type="submit" class="btn btn2">Envoyer</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &copy; Joseph-DINDJI. Made by &hearts;RolexxWEB</p>
+            </div>
+        </div>
+        <!-- END CONTACT  -->
+    
+    <!-- JS SOURCE -->
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw4PKLPFvhS2ASHh3eD7i9Y7h79tBXtsSE0YrIYQqxWbsbu0pWk865yx05fjNjM5d5W/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message non envoyé"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+    <!-- END JS SOURCE -->
+</body>
+</html>
