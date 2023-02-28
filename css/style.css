@@ -314,25 +314,24 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 }
 
-.btn{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid red;
-    padding: 14px 50px;
-    border-radius: 6px;
-    color: #fff;
-    text-decoration: none;
-}
 
-.btn:hover{
+
+.btn.btn2:hover{
     background: red;
     transition: all 0.3s ease-in-out;
+    color: #fff;
 }
 
 .btn.btn2{
     display: inline-block;
-    background: red;
+    background: #ababab;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ababab;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .contact-right form{
@@ -385,7 +384,7 @@ form .btn2{
 
 @media only screen and (max-width: 960px){
     #header{
-        background-image: url(../images/IMG-2937.jpg);
+        background-image: url(../images/IMG-2937\ \(1\).jpg);
     }
 
     .header-text{
@@ -448,7 +447,7 @@ form .btn2{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(../images/IMG-2938.jpg);
+        background-image: url(../images/IMG-2938\ \(1\).jpg);
     }
 
     .header-text{
@@ -456,6 +455,10 @@ form .btn2{
     }
     .header-text h1{
         font-size: 30px;
+        color: #fff;
+    }
+    .header-text p{
+        color: #fff;
     }
     nav .fas{
         display: block;
